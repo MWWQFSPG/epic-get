@@ -1,24 +1,24 @@
-2023-12-21 06:22:39 | INFO    | __main__:stash:131 | run - {'image': '20231121', 'version': '0.10.1.post2', 'role': 'EpicPlayer', 'headless': True}
-2023-12-21 06:22:44 | DEBUG    | __main__:create_tasks:66 | Put task - {'title': 'DNF Duel', 'url': 'https://store.epicgames.com/en-US/p/dnf-duel-07d055'}
-2023-12-21 06:22:49 | INFO    | epic_games.agent:claim_weekly_games:294 | claim_weekly_games - {'action': 'go to store', 'url': 'https://store.epicgames.com/en-US/p/dnf-duel-07d055'}
-2023-12-21 06:22:58 | INFO    | epic_games.agent:claim_weekly_games:326 | claim_weekly_games - {'action': 'move to webPurchaseContainer iframe'}
-2023-12-21 06:23:01 | INFO    | epic_games.agent:claim_weekly_games:328 | claim_weekly_games - {'action': 'click payment button'}
-2023-12-21 06:23:06 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_parse_label:241 | get task - {'prompt': 'Please identify and click on all pictures featuring a bird'}
-2023-12-21 06:23:07 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_catch_all_binary_challenge:474 | handle task - {'unsupervised': 'binary', 'candidate_labels': ['This is a picture that looks like please identify and click on all pictures featuring a bird.', "This is a picture that don't look like please identify and click on all pictures featuring a bird."], 'prompt': 'Please identify and click on all pictures featuring a bird', 'timit': '0.981s'}
-2023-12-21 06:23:18 | DEBUG    | epic_games.agent:insert_challenge:106 | task done - {'sattus': 'success'}
-2023-12-21 06:23:50 | INFO    | epic_games.agent:claim_weekly_games:294 | claim_weekly_games - {'action': 'go to store', 'url': 'https://store.epicgames.com/en-US/p/dnf-duel-07d055'}
-2023-12-21 06:23:58 | INFO    | epic_games.agent:claim_weekly_games:326 | claim_weekly_games - {'action': 'move to webPurchaseContainer iframe'}
-2023-12-21 06:24:01 | INFO    | epic_games.agent:claim_weekly_games:328 | claim_weekly_games - {'action': 'click payment button'}
-2023-12-21 06:24:06 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_parse_label:241 | get task - {'prompt': 'Please identify and click on all pictures featuring a bird'}
-2023-12-21 06:24:07 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_catch_all_binary_challenge:474 | handle task - {'unsupervised': 'binary', 'candidate_labels': ['This is a picture that looks like please identify and click on all pictures featuring a bird.', "This is a picture that don't look like please identify and click on all pictures featuring a bird."], 'prompt': 'Please identify and click on all pictures featuring a bird', 'timit': '0.765s'}
-2023-12-21 06:24:18 | DEBUG    | epic_games.agent:insert_challenge:106 | task done - {'sattus': 'success'}
-2023-12-21 06:24:50 | INFO    | epic_games.agent:claim_weekly_games:294 | claim_weekly_games - {'action': 'go to store', 'url': 'https://store.epicgames.com/en-US/p/dnf-duel-07d055'}
-2023-12-21 06:24:58 | INFO    | epic_games.agent:claim_weekly_games:326 | claim_weekly_games - {'action': 'move to webPurchaseContainer iframe'}
-2023-12-21 06:25:01 | INFO    | epic_games.agent:claim_weekly_games:328 | claim_weekly_games - {'action': 'click payment button'}
-2023-12-21 06:25:06 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_parse_label:241 | get task - {'prompt': 'Please click on all anіmals that cannot fly'}
-2023-12-21 06:25:07 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_catch_all_binary_challenge:474 | handle task - {'unsupervised': 'binary', 'candidate_labels': ['This is a picture that looks like please click on all animals that cannot fly.', "This is a picture that don't look like please click on all animals that cannot fly."], 'prompt': 'Please click on all anіmals that cannot fly', 'timit': '0.728s'}
-2023-12-21 06:25:18 | DEBUG    | epic_games.agent:insert_challenge:106 | task done - {'sattus': 'success'}
-2023-12-21 06:25:50 | ERROR    | __main__:run:158 | An error has been caught in function 'run', process 'MainProcess' (3561), thread 'MainThread' (140391238273920): - {}
+2023-12-21 06:30:07 | INFO    | __main__:stash:131 | run - {'image': '20231121', 'version': '0.10.1.post2', 'role': 'EpicPlayer', 'headless': True}
+2023-12-21 06:30:11 | DEBUG    | __main__:create_tasks:66 | Put task - {'title': 'DNF Duel', 'url': 'https://store.epicgames.com/en-US/p/dnf-duel-07d055'}
+2023-12-21 06:30:16 | INFO    | epic_games.agent:claim_weekly_games:294 | claim_weekly_games - {'action': 'go to store', 'url': 'https://store.epicgames.com/en-US/p/dnf-duel-07d055'}
+2023-12-21 06:30:25 | INFO    | epic_games.agent:claim_weekly_games:326 | claim_weekly_games - {'action': 'move to webPurchaseContainer iframe'}
+2023-12-21 06:30:27 | INFO    | epic_games.agent:claim_weekly_games:328 | claim_weekly_games - {'action': 'click payment button'}
+2023-12-21 06:30:32 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_parse_label:241 | get task - {'prompt': 'Please сlick eaсh image containing a cup of eggnog'}
+2023-12-21 06:30:33 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_catch_all_binary_challenge:474 | handle task - {'unsupervised': 'binary', 'candidate_labels': ['This is a picture that looks like cup of eggnog.', "This is a picture that don't look like cup of eggnog."], 'prompt': 'Please сlick eaсh image containing a cup of eggnog', 'timit': '0.953s'}
+2023-12-21 06:30:44 | DEBUG    | epic_games.agent:insert_challenge:106 | task done - {'sattus': 'success'}
+2023-12-21 06:31:16 | INFO    | epic_games.agent:claim_weekly_games:294 | claim_weekly_games - {'action': 'go to store', 'url': 'https://store.epicgames.com/en-US/p/dnf-duel-07d055'}
+2023-12-21 06:31:25 | INFO    | epic_games.agent:claim_weekly_games:326 | claim_weekly_games - {'action': 'move to webPurchaseContainer iframe'}
+2023-12-21 06:31:27 | INFO    | epic_games.agent:claim_weekly_games:328 | claim_weekly_games - {'action': 'click payment button'}
+2023-12-21 06:31:32 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_parse_label:241 | get task - {'prompt': 'Please iԁentify and click on all рictures featuring a bird'}
+2023-12-21 06:31:33 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_catch_all_binary_challenge:474 | handle task - {'unsupervised': 'binary', 'candidate_labels': ['This is a picture that looks like please identify and click on all pictures featuring a bird.', "This is a picture that don't look like please identify and click on all pictures featuring a bird."], 'prompt': 'Please iԁentify and click on all рictures featuring a bird', 'timit': '0.878s'}
+2023-12-21 06:31:45 | DEBUG    | epic_games.agent:insert_challenge:106 | task done - {'sattus': 'success'}
+2023-12-21 06:32:17 | INFO    | epic_games.agent:claim_weekly_games:294 | claim_weekly_games - {'action': 'go to store', 'url': 'https://store.epicgames.com/en-US/p/dnf-duel-07d055'}
+2023-12-21 06:32:25 | INFO    | epic_games.agent:claim_weekly_games:326 | claim_weekly_games - {'action': 'move to webPurchaseContainer iframe'}
+2023-12-21 06:32:28 | INFO    | epic_games.agent:claim_weekly_games:328 | claim_weekly_games - {'action': 'click payment button'}
+2023-12-21 06:32:33 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_parse_label:241 | get task - {'prompt': 'Please click each image containing a cup of eggnog'}
+2023-12-21 06:32:34 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_catch_all_binary_challenge:474 | handle task - {'unsupervised': 'binary', 'candidate_labels': ['This is a picture that looks like cup of eggnog.', "This is a picture that don't look like cup of eggnog."], 'prompt': 'Please click each image containing a cup of eggnog', 'timit': '0.727s'}
+2023-12-21 06:32:44 | DEBUG    | epic_games.agent:insert_challenge:106 | task done - {'sattus': 'success'}
+2023-12-21 06:33:15 | ERROR    | __main__:run:158 | An error has been caught in function 'run', process 'MainProcess' (3558), thread 'MainThread' (140131197873024): - {}
 Traceback (most recent call last):
   File "/home/runner/work/epic-get/epic-get/epic/src/claim.py", line 151, in stash
     await self.claim_epic_games(context)
