@@ -1,24 +1,24 @@
-2023-12-23 06:29:31 | INFO    | __main__:stash:131 | run - {'image': '20231121', 'version': '0.10.1.post2', 'role': 'EpicPlayer', 'headless': True}
-2023-12-23 06:29:35 | DEBUG    | __main__:create_tasks:66 | Put task - {'title': 'Art of Rally', 'url': 'https://store.epicgames.com/en-US/p/art-of-rally'}
-2023-12-23 06:29:40 | INFO    | epic_games.agent:claim_weekly_games:294 | claim_weekly_games - {'action': 'go to store', 'url': 'https://store.epicgames.com/en-US/p/art-of-rally'}
-2023-12-23 06:29:48 | INFO    | epic_games.agent:claim_weekly_games:326 | claim_weekly_games - {'action': 'move to webPurchaseContainer iframe'}
-2023-12-23 06:29:50 | INFO    | epic_games.agent:claim_weekly_games:328 | claim_weekly_games - {'action': 'click payment button'}
-2023-12-23 06:29:55 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_parse_label:241 | get task - {'prompt': 'Ρlease cliсk οn all imаges containing liquid water.'}
-2023-12-23 06:29:56 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_catch_all_binary_challenge:474 | handle task - {'unsupervised': 'binary', 'candidate_labels': ['This is a picture that looks like liquid water.', "This is a picture that don't look like liquid water."], 'prompt': 'Ρlease cliсk οn all imаges containing liquid water.', 'timit': '0.914s'}
-2023-12-23 06:30:07 | DEBUG    | epic_games.agent:insert_challenge:106 | task done - {'sattus': 'success'}
-2023-12-23 06:30:40 | INFO    | epic_games.agent:claim_weekly_games:294 | claim_weekly_games - {'action': 'go to store', 'url': 'https://store.epicgames.com/en-US/p/art-of-rally'}
-2023-12-23 06:30:48 | INFO    | epic_games.agent:claim_weekly_games:326 | claim_weekly_games - {'action': 'move to webPurchaseContainer iframe'}
-2023-12-23 06:30:51 | INFO    | epic_games.agent:claim_weekly_games:328 | claim_weekly_games - {'action': 'click payment button'}
-2023-12-23 06:30:56 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_parse_label:241 | get task - {'prompt': 'Please clіck on all іmages containing liquіd water.'}
-2023-12-23 06:30:57 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_catch_all_binary_challenge:474 | handle task - {'unsupervised': 'binary', 'candidate_labels': ['This is a picture that looks like liquid water.', "This is a picture that don't look like liquid water."], 'prompt': 'Please clіck on all іmages containing liquіd water.', 'timit': '0.787s'}
-2023-12-23 06:31:08 | DEBUG    | epic_games.agent:insert_challenge:106 | task done - {'sattus': 'success'}
-2023-12-23 06:31:40 | INFO    | epic_games.agent:claim_weekly_games:294 | claim_weekly_games - {'action': 'go to store', 'url': 'https://store.epicgames.com/en-US/p/art-of-rally'}
-2023-12-23 06:31:49 | INFO    | epic_games.agent:claim_weekly_games:326 | claim_weekly_games - {'action': 'move to webPurchaseContainer iframe'}
-2023-12-23 06:31:52 | INFO    | epic_games.agent:claim_weekly_games:328 | claim_weekly_games - {'action': 'click payment button'}
-2023-12-23 06:31:57 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_parse_label:241 | get task - {'prompt': 'Please click on all images containing liquiԁ water.'}
-2023-12-23 06:31:57 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_catch_all_binary_challenge:474 | handle task - {'unsupervised': 'binary', 'candidate_labels': ['This is a picture that looks like liquid water.', "This is a picture that don't look like liquid water."], 'prompt': 'Please click on all images containing liquiԁ water.', 'timit': '0.752s'}
-2023-12-23 06:32:08 | DEBUG    | epic_games.agent:insert_challenge:106 | task done - {'sattus': 'success'}
-2023-12-23 06:32:40 | ERROR    | __main__:run:158 | An error has been caught in function 'run', process 'MainProcess' (3496), thread 'MainThread' (140239962389376): - {}
+2023-12-24 06:21:51 | INFO    | __main__:stash:131 | run - {'image': '20231121', 'version': '0.10.1.post2', 'role': 'EpicPlayer', 'headless': True}
+2023-12-24 06:21:56 | DEBUG    | __main__:create_tasks:66 | Put task - {'title': 'Fallout 3: Game of the Year Edition', 'url': 'https://store.epicgames.com/en-US/p/fallout-3-game-of-the-year-edition'}
+2023-12-24 06:22:01 | INFO    | epic_games.agent:claim_weekly_games:294 | claim_weekly_games - {'action': 'go to store', 'url': 'https://store.epicgames.com/en-US/p/fallout-3-game-of-the-year-edition'}
+2023-12-24 06:22:11 | INFO    | epic_games.agent:claim_weekly_games:326 | claim_weekly_games - {'action': 'move to webPurchaseContainer iframe'}
+2023-12-24 06:22:14 | INFO    | epic_games.agent:claim_weekly_games:328 | claim_weekly_games - {'action': 'click payment button'}
+2023-12-24 06:22:19 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_parse_label:241 | get task - {'prompt': 'Plеase click each image containing a polar bеar'}
+2023-12-24 06:22:20 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_catch_all_binary_challenge:474 | handle task - {'unsupervised': 'binary', 'candidate_labels': ['This is a picture that looks like polar bear.', "This is a picture that don't look like polar bear."], 'prompt': 'Plеase click each image containing a polar bеar', 'timit': '0.966s'}
+2023-12-24 06:22:30 | DEBUG    | epic_games.agent:insert_challenge:106 | task done - {'sattus': 'success'}
+2023-12-24 06:23:02 | INFO    | epic_games.agent:claim_weekly_games:294 | claim_weekly_games - {'action': 'go to store', 'url': 'https://store.epicgames.com/en-US/p/fallout-3-game-of-the-year-edition'}
+2023-12-24 06:23:10 | INFO    | epic_games.agent:claim_weekly_games:326 | claim_weekly_games - {'action': 'move to webPurchaseContainer iframe'}
+2023-12-24 06:23:12 | INFO    | epic_games.agent:claim_weekly_games:328 | claim_weekly_games - {'action': 'click payment button'}
+2023-12-24 06:23:17 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_parse_label:241 | get task - {'prompt': 'Ρlease click each image containing a polar bear'}
+2023-12-24 06:23:18 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_catch_all_binary_challenge:474 | handle task - {'unsupervised': 'binary', 'candidate_labels': ['This is a picture that looks like polar bear.', "This is a picture that don't look like polar bear."], 'prompt': 'Ρlease click each image containing a polar bear', 'timit': '0.773s'}
+2023-12-24 06:23:28 | DEBUG    | epic_games.agent:insert_challenge:106 | task done - {'sattus': 'success'}
+2023-12-24 06:24:01 | INFO    | epic_games.agent:claim_weekly_games:294 | claim_weekly_games - {'action': 'go to store', 'url': 'https://store.epicgames.com/en-US/p/fallout-3-game-of-the-year-edition'}
+2023-12-24 06:24:09 | INFO    | epic_games.agent:claim_weekly_games:326 | claim_weekly_games - {'action': 'move to webPurchaseContainer iframe'}
+2023-12-24 06:24:11 | INFO    | epic_games.agent:claim_weekly_games:328 | claim_weekly_games - {'action': 'click payment button'}
+2023-12-24 06:24:16 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_parse_label:241 | get task - {'prompt': 'Please click each imаge cοntaining a plant'}
+2023-12-24 06:24:17 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_catch_all_binary_challenge:474 | handle task - {'unsupervised': 'binary', 'candidate_labels': ['This is a picture that looks like plant.', "This is a picture that don't look like plant."], 'prompt': 'Please click each imаge cοntaining a plant', 'timit': '0.772s'}
+2023-12-24 06:24:25 | DEBUG    | epic_games.agent:insert_challenge:106 | task done - {'sattus': 'success'}
+2023-12-24 06:24:57 | ERROR    | __main__:run:158 | An error has been caught in function 'run', process 'MainProcess' (3548), thread 'MainThread' (140056882957184): - {}
 Traceback (most recent call last):
   File "/home/runner/work/epic-get/epic-get/epic/src/claim.py", line 151, in stash
     await self.claim_epic_games(context)
