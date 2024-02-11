@@ -1,5 +1,5 @@
-2024-02-12 06:21:20 | INFO    | __main__:stash:131 | run - {'image': '20231121', 'version': '0.10.1.post2', 'role': 'EpicPlayer', 'headless': True}
-2024-02-12 06:21:52 | ERROR    | __main__:run:158 | An error has been caught in function 'run', process 'MainProcess' (3541), thread 'MainThread' (140288801274752): - {}
+2024-02-12 06:28:28 | INFO    | __main__:stash:131 | run - {'image': '20231121', 'version': '0.10.1.post2', 'role': 'EpicPlayer', 'headless': True}
+2024-02-12 06:29:00 | ERROR    | __main__:run:158 | An error has been caught in function 'run', process 'MainProcess' (3499), thread 'MainThread' (140220101835648): - {}
 Traceback (most recent call last):
   File "/home/runner/work/epic-get/epic-get/epic/src/claim.py", line 162, in <module>
     asyncio.run(run())
