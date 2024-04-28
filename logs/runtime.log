@@ -1,7 +1,7 @@
-2024-04-28 06:31:32 | INFO    | __main__:stash:131 | run - {'image': '20231121', 'version': '0.10.1.post2', 'role': 'EpicPlayer', 'headless': True}
-2024-04-28 06:31:42 | INFO    | __main__:claim_epic_games:97 | Try to flush cookie - {'task': 'claim_epic_games'}
-2024-04-28 06:31:44 | INFO    | epic_games.agent:_login:237 | login-with-email - {'url': 'https://www.epicgames.com/id/login?lang=en-US&noHostRedirect=true&redirectUrl=https://store.epicgames.com/en-US/free-games'}
-2024-04-28 06:31:45 | ERROR    | hcaptcha_challenger.agents.playwright.control:handler:153 | 'utf-8' codec can't decode byte 0xe5 in position 6: invalid continuation byte - {}
+2024-04-29 06:22:46 | INFO    | __main__:stash:131 | run - {'image': '20231121', 'version': '0.10.1.post2', 'role': 'EpicPlayer', 'headless': True}
+2024-04-29 06:22:53 | INFO    | __main__:claim_epic_games:97 | Try to flush cookie - {'task': 'claim_epic_games'}
+2024-04-29 06:22:56 | INFO    | epic_games.agent:_login:237 | login-with-email - {'url': 'https://www.epicgames.com/id/login?lang=en-US&noHostRedirect=true&redirectUrl=https://store.epicgames.com/en-US/free-games'}
+2024-04-29 06:22:57 | ERROR    | hcaptcha_challenger.agents.playwright.control:handler:153 | 'utf-8' codec can't decode byte 0xf0 in position 1: invalid continuation byte - {}
 Traceback (most recent call last):
   File "/home/runner/work/epic-get/epic-get/epic/src/claim.py", line 162, in <module>
     asyncio.run(run())
@@ -23,13 +23,13 @@ Traceback (most recent call last):
     return json.loads(await self.text())
   File "/opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/playwright/_impl/_network.py", line 610, in text
     return content.decode()
-UnicodeDecodeError: 'utf-8' codec can't decode byte 0xe5 in position 6: invalid continuation byte
-2024-04-28 06:31:48 | DEBUG    | epic_games.agent:insert_challenge:215 | Attack challenge - {'stage': 'email_exists_prod'}
-2024-04-28 06:32:17 | ERROR    | hcaptcha_challenger.agents.playwright.control:execute:615 | task interrupt <backcall> - {'reason': 'Failed to obtain challenge task'}
-2024-04-28 06:32:17 | DEBUG    | epic_games.agent:insert_challenge:218 | Parse result - {'stage': 'email_exists_prod', 'result': <Status.CHALLENGE_BACKCALL: 'backcall'>}
-2024-04-28 06:32:48 | WARNING    | epic_games.agent:authorize:266 | 执行超时 - {'task': 'authorize', 'retry': 0}
-2024-04-28 06:32:51 | INFO    | epic_games.agent:_login:237 | login-with-email - {'url': 'https://www.epicgames.com/id/login?lang=en-US&noHostRedirect=true&redirectUrl=https://store.epicgames.com/en-US/free-games'}
-2024-04-28 06:32:53 | ERROR    | hcaptcha_challenger.agents.playwright.control:handler:153 | 'utf-8' codec can't decode byte 0xc3 in position 0: invalid continuation byte - {}
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf0 in position 1: invalid continuation byte
+2024-04-29 06:23:00 | DEBUG    | epic_games.agent:insert_challenge:215 | Attack challenge - {'stage': 'email_exists_prod'}
+2024-04-29 06:23:29 | ERROR    | hcaptcha_challenger.agents.playwright.control:execute:615 | task interrupt <backcall> - {'reason': 'Failed to obtain challenge task'}
+2024-04-29 06:23:29 | DEBUG    | epic_games.agent:insert_challenge:218 | Parse result - {'stage': 'email_exists_prod', 'result': <Status.CHALLENGE_BACKCALL: 'backcall'>}
+2024-04-29 06:24:00 | WARNING    | epic_games.agent:authorize:266 | 执行超时 - {'task': 'authorize', 'retry': 0}
+2024-04-29 06:24:02 | INFO    | epic_games.agent:_login:237 | login-with-email - {'url': 'https://www.epicgames.com/id/login?lang=en-US&noHostRedirect=true&redirectUrl=https://store.epicgames.com/en-US/free-games'}
+2024-04-29 06:24:04 | ERROR    | hcaptcha_challenger.agents.playwright.control:handler:153 | 'utf-8' codec can't decode byte 0xd2 in position 6: invalid continuation byte - {}
 Traceback (most recent call last):
   File "/home/runner/work/epic-get/epic-get/epic/src/claim.py", line 162, in <module>
     asyncio.run(run())
@@ -51,13 +51,13 @@ Traceback (most recent call last):
     return json.loads(await self.text())
   File "/opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/playwright/_impl/_network.py", line 610, in text
     return content.decode()
-UnicodeDecodeError: 'utf-8' codec can't decode byte 0xc3 in position 0: invalid continuation byte
-2024-04-28 06:32:55 | DEBUG    | epic_games.agent:insert_challenge:215 | Attack challenge - {'stage': 'email_exists_prod'}
-2024-04-28 06:33:25 | ERROR    | hcaptcha_challenger.agents.playwright.control:execute:615 | task interrupt <backcall> - {'reason': 'Failed to obtain challenge task'}
-2024-04-28 06:33:25 | DEBUG    | epic_games.agent:insert_challenge:218 | Parse result - {'stage': 'email_exists_prod', 'result': <Status.CHALLENGE_BACKCALL: 'backcall'>}
-2024-04-28 06:33:56 | WARNING    | epic_games.agent:authorize:266 | 执行超时 - {'task': 'authorize', 'retry': 1}
-2024-04-28 06:33:58 | INFO    | epic_games.agent:_login:237 | login-with-email - {'url': 'https://www.epicgames.com/id/login?lang=en-US&noHostRedirect=true&redirectUrl=https://store.epicgames.com/en-US/free-games'}
-2024-04-28 06:34:00 | ERROR    | hcaptcha_challenger.agents.playwright.control:handler:153 | 'utf-8' codec can't decode byte 0xbc in position 0: invalid start byte - {}
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd2 in position 6: invalid continuation byte
+2024-04-29 06:24:06 | DEBUG    | epic_games.agent:insert_challenge:215 | Attack challenge - {'stage': 'email_exists_prod'}
+2024-04-29 06:24:36 | ERROR    | hcaptcha_challenger.agents.playwright.control:execute:615 | task interrupt <backcall> - {'reason': 'Failed to obtain challenge task'}
+2024-04-29 06:24:36 | DEBUG    | epic_games.agent:insert_challenge:218 | Parse result - {'stage': 'email_exists_prod', 'result': <Status.CHALLENGE_BACKCALL: 'backcall'>}
+2024-04-29 06:25:07 | WARNING    | epic_games.agent:authorize:266 | 执行超时 - {'task': 'authorize', 'retry': 1}
+2024-04-29 06:25:09 | INFO    | epic_games.agent:_login:237 | login-with-email - {'url': 'https://www.epicgames.com/id/login?lang=en-US&noHostRedirect=true&redirectUrl=https://store.epicgames.com/en-US/free-games'}
+2024-04-29 06:25:10 | ERROR    | hcaptcha_challenger.agents.playwright.control:handler:153 | 'utf-8' codec can't decode byte 0xb9 in position 0: invalid start byte - {}
 Traceback (most recent call last):
   File "/home/runner/work/epic-get/epic-get/epic/src/claim.py", line 162, in <module>
     asyncio.run(run())
@@ -79,12 +79,12 @@ Traceback (most recent call last):
     return json.loads(await self.text())
   File "/opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/playwright/_impl/_network.py", line 610, in text
     return content.decode()
-UnicodeDecodeError: 'utf-8' codec can't decode byte 0xbc in position 0: invalid start byte
-2024-04-28 06:34:02 | DEBUG    | epic_games.agent:insert_challenge:215 | Attack challenge - {'stage': 'email_exists_prod'}
-2024-04-28 06:34:32 | ERROR    | hcaptcha_challenger.agents.playwright.control:execute:615 | task interrupt <backcall> - {'reason': 'Failed to obtain challenge task'}
-2024-04-28 06:34:32 | DEBUG    | epic_games.agent:insert_challenge:218 | Parse result - {'stage': 'email_exists_prod', 'result': <Status.CHALLENGE_BACKCALL: 'backcall'>}
-2024-04-28 06:35:03 | WARNING    | epic_games.agent:authorize:266 | 执行超时 - {'task': 'authorize', 'retry': 2}
-2024-04-28 06:35:03 | ERROR    | __main__:run:158 | An error has been caught in function 'run', process 'MainProcess' (3824), thread 'MainThread' (139668627069824): - {}
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xb9 in position 0: invalid start byte
+2024-04-29 06:25:13 | DEBUG    | epic_games.agent:insert_challenge:215 | Attack challenge - {'stage': 'email_exists_prod'}
+2024-04-29 06:25:42 | ERROR    | hcaptcha_challenger.agents.playwright.control:execute:615 | task interrupt <backcall> - {'reason': 'Failed to obtain challenge task'}
+2024-04-29 06:25:42 | DEBUG    | epic_games.agent:insert_challenge:218 | Parse result - {'stage': 'email_exists_prod', 'result': <Status.CHALLENGE_BACKCALL: 'backcall'>}
+2024-04-29 06:26:13 | WARNING    | epic_games.agent:authorize:266 | 执行超时 - {'task': 'authorize', 'retry': 2}
+2024-04-29 06:26:14 | ERROR    | __main__:run:158 | An error has been caught in function 'run', process 'MainProcess' (3846), thread 'MainThread' (140503911754624): - {}
 Traceback (most recent call last):
   File "/home/runner/work/epic-get/epic-get/epic/src/claim.py", line 162, in <module>
     asyncio.run(run())
